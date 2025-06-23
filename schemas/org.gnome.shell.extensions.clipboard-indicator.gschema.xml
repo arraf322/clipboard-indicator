@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="clipboard-indicator">
+  <schema id="org.gnome.shell.extensions.clipboard-indicator" path="/org/gnome/shell/extensions/clipboard-indicator/">
+    <key name="max-history-size" type="i">
+      <default>10</default>
+      <summary>Maximum Clipboard History Size</summary>
+      <description>The maximum number of items to store in the clipboard history.</description>
+    </key>
+    <key name="show-copy-notifications" type="b">
+      <default>false</default>
+      <summary>Show Notifications on Copy</summary>
+      <description>Whether to show a brief notification when an item is successfully added to the clipboard history.</description>
+    </key>
+  </schema>
+</schemalist>

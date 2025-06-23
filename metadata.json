@@ -1,0 +1,12 @@
+{
+    "uuid": "clipboard-indicator@mygnome.extensions.google",
+    "name": "Clipboard Indicator",
+    "description": "A powerful clipboard indicator with history and file support.",
+    "version": 1,
+    "shell-version": [
+        "43"
+    ],
+    "url": "https://github.com/yourusername/clipboard-indicator",
+    "gettext-domain": "clipboard-indicator",
+    "settings-schema": "org.gnome.shell.extensions.clipboard-indicator"
+}
